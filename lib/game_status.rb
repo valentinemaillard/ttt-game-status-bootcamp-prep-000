@@ -24,7 +24,8 @@ def won?(board)
   end
 
 def full?(board)
-  full_board == board
+ board.any? do |full_board|
+   full_board == won?
 end
 end
 
