@@ -24,7 +24,8 @@ def won?(board)
   end
 
 def full?(board)
-
+WIN_COMBINATIONS.any? do |full_board|
+  full_board == board
 end
 end
 
