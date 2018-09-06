@@ -28,7 +28,7 @@ board.all?{|token| token == "X" || token == "O"}
 end
 
 def draw?(board)
-  board.none?{|token| token == "X" || token == "O" || token == " "}
+  board.none?{|token| token == "X" && token == "O" && token == " "}
 end
 
 
