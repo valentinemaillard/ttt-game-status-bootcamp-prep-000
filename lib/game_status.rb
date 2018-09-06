@@ -36,7 +36,7 @@ full?(board) || won?(board)
 end
 
 def winner(board)
-  board.
+
 end
 
 
