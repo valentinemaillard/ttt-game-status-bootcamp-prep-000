@@ -35,6 +35,9 @@ def over?(board)
   draw?(board) || full?(board) || won?(board)
 end
 
+def winner(board)
+  draw?(board) = nil && !won?(board) == "X" || "O"
+end
 
 
 
