@@ -36,7 +36,7 @@ def over?(board)
 end
 
 def winner(board)
-  (draw?(board) = nil) && (won?(board) == "X" || "O")
+  (draw?(board) == nil) && (won?(board) == "X" || "O")
 end
 
 
